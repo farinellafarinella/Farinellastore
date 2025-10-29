@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventi - Farinella Store</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+          <h1>Eventi</h1>
+          <a href="./articoli.html" class="btn btn-secondary">← Torna agli articoli</a>
+        </div>
+        <button id="logoutBtn" class="btn red">Logout</button>
+      </nav>
+
+  <main>
+    <section>
+      <h2>Eventi in programma</h2>
+      <div id="eventList"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./js/firebase.js"></script>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
